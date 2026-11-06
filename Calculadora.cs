@@ -1,10 +1,22 @@
 namespace ClassesObjetos
 {
-    public static class Calculadora
+    public class Calculadora
     {
-        public static int Somar(int a, int b)
+        public int Somar(int a, int b)
         {
             return a + b;
+        }
+        public int Subtrair(int a, int b)
+        {
+            return a - b;
+        }
+        public int multiplicar(int a, int b)
+        {
+            return a * b;
+        }
+        public static decimal dividir( decimal a, decimal b)
+        {
+            return a / b;
         }
     }
 }

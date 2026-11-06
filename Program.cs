@@ -5,21 +5,24 @@ Produto p1 = new Produto(); // instanciando um objeto da classe Produto
 //int numero1 = 5;
 //int numero2 = 10;
 
-p1.Nome = "Notebook";
+//p1.Nome = "Notebook";
 //p1.Preco = 3500m;
-p1.AlterarPreco(3500m);
+//p1.AlterarPreco(3500m);
 
-p1.Exibir();
+//p1.Exibir();
 
-Produto p2 = new Produto();
-p2.Nome = "Mouse";
+//Produto p2 = new Produto();
+//p2.Nome = "Mouse";
 // p2.Preco = 100m;
-p2.AlterarPreco(100m);
+//p2.AlterarPreco(100m);
 
-p2.Exibir();
+//p2.Exibir();
+
+Calculadora c1 = new Calculadora();
+
 
 // Classes e metodos static
-int resultado = Calculadora.Somar(10, 20);
+int resultado = c1.Somar(10, 20);
 
 Console.WriteLine($"Resultado: {resultado}");
 
@@ -27,15 +30,15 @@ Console.WriteLine($"Resultado: {resultado}");
 // Conta.Depositar(100m);
 // Conta.Depositar(50m);
 
-Conta conta_corrente = new Conta();
-Conta conta_poupanca = new Conta();
+//Conta conta_corrente = new Conta();
+//Conta conta_poupanca = new Conta();
 
-conta_corrente.Depositar(100m);
+//conta_corrente.Depositar(100m);
 
-conta_poupanca.Depositar(50m);
+//conta_poupanca.Depositar(50m);
 
-Console.WriteLine(Math.Round(10.567, 2));
-Console.WriteLine(DateTime.Now);
+//Console.WriteLine(Math.Round(10.567, 2));
+//Console.WriteLine(DateTime.Now);
 
 Pessoa pessoa1 = new Pessoa();
 Console.WriteLine($"Nome: {pessoa1.Nome} - Idade: {pessoa1.Idade}");
@@ -45,13 +48,24 @@ Console.WriteLine($"Nome: {pessoa2.Nome} - Idade: {pessoa2.Idade}");
 
 // string nome = "Samuel";
 
-Produto p3 = new Produto
-{
-  Nome = "PS5",
-  Quantidade = 1
-};
+//Produto p3 = new Produto
+//{
+ // Nome = "PS5",
+  //Quantidade = 1
+//};
 
 
+      Pessoa pessoaA = new Pessoa();
+        pessoaA.Nome = "Rufina";
+        pessoaA.Idade = 19;
+        pessoaA.Cidade = "São Paulo";
+        pessoaA.Apresentar();
+      
+      Pessoa pessoaB = new Pessoa();
+        pessoaB.Nome = "Tchindjia";
+        pessoaB.Idade = 18;
+        pessoaB.Cidade = "São Bernardo";
+        pessoaB.Apresentar();
 
 
 
